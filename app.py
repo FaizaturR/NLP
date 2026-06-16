@@ -5,7 +5,7 @@ with open("id_vocab.pkl","rb") as f:
 
 with open("en_vocab.pkl","rb") as f:
     en_vocab = pickle.load(f)
-    
+
 import streamlit as st
 import torch
 import torch.nn as nn
@@ -15,7 +15,6 @@ import torch.nn as nn
 # =====================================
 
 st.set_page_config(
-    page_title="Machine Translation UII",
     page_icon="🌍",
     layout="centered"
 )
