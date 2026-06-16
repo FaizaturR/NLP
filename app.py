@@ -308,7 +308,7 @@ st.subheader("Indonesia → English")
 
 st.write("Tugas UAS NLP")
 
-st.write("Universitas Islam Indonesia (UII)")
+
 
 st.divider()
 
