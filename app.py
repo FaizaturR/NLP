@@ -1,3 +1,11 @@
+import pickle
+
+with open("id_vocab.pkl","rb") as f:
+    id_vocab = pickle.load(f)
+
+with open("en_vocab.pkl","rb") as f:
+    en_vocab = pickle.load(f)
+    
 import streamlit as st
 import torch
 import torch.nn as nn
